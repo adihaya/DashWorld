@@ -7,6 +7,12 @@ body {
      background-size:cover;
 }
 
+.darkrect {
+     background:url("../darkrect.png") no-repeat center;
+     background-color:darkgray;
+}    
+          
+          
 h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100%;
