@@ -2,8 +2,12 @@ body {
   background: url("../hello_world.png") no-repeat fixed center;
   background-size:cover;
 }
+.tutorialbody {
+     background: url("../tutorial.png") no-repeat fixed center;
+     background-size:cover;
+}
 
-h1 {
+h1, h2, h3, h4, h5 {
   text-align: center;
   width: 100%;
   line-height: 120%;
@@ -43,7 +47,7 @@ p {
 .goButton:active {
 	position:relative;
 	top:1px;
-     background-color:#5cbf3a;
+     background-color:#1F8F00;
      color:#00A6FF;
 }
 /* END GoButton */
