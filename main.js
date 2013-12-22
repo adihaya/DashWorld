@@ -1,21 +1,35 @@
-/**
- * Listens for the app launching then creates the window
- *
- * @see http://developer.chrome.com/trunk/apps/app.runtime.html
- * @see http://developer.chrome.com/trunk/apps/app.window.html
- */
 chrome.app.runtime.onLaunched.addListener(function() {
-  // Center window on screen.
-  var screenWidth = screen.availWidth;
-  var screenHeight = screen.availHeight;
-  var width = screenWidth-1;
-  var height = screenHeight-1;
   chrome.app.window.create('index.html', {
-    bounds: {
-      width: width,
-      height: height,
-      left: Math.round((screenWidth-width)/2),
-      top: Math.round((screenHeight-height)/2)
+    'bounds': {
+      'width': 1400,
+      'height': 1500
     }
   });
 });
+
+var tabidstore = {};
+/*function newtab(name, url){
+     var mytab=chrome.tabs.create({url: "https */
+function replacetab(url) {
+     console.log("This tab is being replaced to: "+url);
+     window.location.replace(url);
+     if (window.location.href==url){
+     console.log("This tab SUCCESSFULLY replaced to: "+url);
+     } else {
+          console.log("This tab FAILED to replace to: "+url);
+     }
+}
+                              
+function thistab(url) {
+     console.log("This tab is being replaced to: "+url);
+     chrome.app.window.create(url, {
+    'bounds': {
+      'width': 1400,
+      'height': 1500
+    }
+  });
+     if (window.location.href==url){
+     console.log("This tab SUCCESSFULLY replaced to: "+url);
+     } else {
+          console.log("This tab FAILED to replace to: "+url);
+     }

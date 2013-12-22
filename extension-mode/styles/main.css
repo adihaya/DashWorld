@@ -1,0 +1,92 @@
+body {
+  background: url("../hello_world.png") no-repeat fixed center;
+  background-size:cover;
+     min-height:500px;
+     min-width:500px;
+          
+          
+}
+.tutorialbody {
+     background: url("../tutorial.png") no-repeat fixed center;
+     background-size:cover;
+}
+
+.darkrect {
+     background:url("../darkrect.png") no-repeat center;
+     background-color:darkgray;
+}    
+          
+          
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  width: 100%;
+  line-height: 120%;
+  padding-top: 200px;
+  font-family: kelly-slab;
+  color: rgb(0,225,255);
+  letter-spacing: -0.05em;
+}
+
+p {
+     color: rgb(0,225,255);
+     font-family: 'Josefin Sans';
+     font-size:28px;
+}
+
+/* GoButton */
+.goButton {
+	background-color:#00D0FF;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#1EFF00;
+	font-family: 'Josefin Sans';
+	font-size:60px;
+     
+	padding:40px 55px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.goButton:hover {
+	background-color:#5cbf2a;
+     color:#00A6FF;
+}
+.goButton:active {
+	position:relative;
+	top:1px;
+     background-color:#1F8F00;
+     color:#00A6FF;
+}
+/* END GoButton */
+
+/* UnButton */
+.unButton {
+	background-color:#D6D6D6;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #D6D6D8;
+	display:inline-block;
+	cursor:pointer;
+	color:#1EFF00;
+	font-family: 'Josefin Sans';
+	font-size:60px;
+     
+	padding:40px 55px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.unButton:hover {
+	background-color:#E8E8E8;
+     color:#00A6FF;
+}
+.unButton:active {
+	position:relative;
+	top:1px;
+     background-color:#B0B0B0;
+     color:#00A6FF;
+}
+/* END UnButton */

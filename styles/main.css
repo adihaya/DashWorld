@@ -1,6 +1,10 @@
 body {
   background: url("../hello_world.png") no-repeat fixed center;
   background-size:cover;
+     min-height:500px;
+     min-width:500px;
+          
+          
 }
 .tutorialbody {
      background: url("../tutorial.png") no-repeat fixed center;
