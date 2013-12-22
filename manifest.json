@@ -1,0 +1,31 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCR0aQyenAg65QCFaIe/Z8XIPE4HiJMhaqeMg6/gbS8yEtV6RwR8XAwFNuod0u2f4n0tPWoIF4iSplCsFJmf19E946HaWFNByRRbAEYJrrgJmsE2iWmMX938jdwuzd8cHc8WsHcmTwNVusJS/mrdv6hR7rdBuscxv+pHdcPXmhO2wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "DashWorld",
+     "description": "DashWorld is the most sophisticated Dashboard ever to exist. It's available for free, exclusively in Google Chrome.",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.1",
+     "permissions": [
+          //"tabs",
+          "http://*.google.com/",
+          "unlimitedStorage",
+          //"background",
+          //"activeTab",
+          "clipboardRead",
+          "clipboardWrite",
+          //"cookies",
+          //"debugger",
+          "location"
+          //"topSites"
+     ]
+}
